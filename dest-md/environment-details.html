@@ -184,3 +184,47 @@
 </tr>
 </tbody>
 </table>
+<h1 id="status-codes">Status codes</h1>
+<table>
+<thead>
+<tr>
+<th>Status code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AC</td>
+<td>It means that your code ran without any issues during the &quot;RUN CODE&quot;</td>
+</tr>
+<tr>
+<td>NZEC</td>
+<td>Runtime Error. This can be caused due to various reasons like improper handling of input, segmentation fault, etc. And if you forgot to return 0 in main function for C or C++</td>
+</tr>
+<tr>
+<td>TLE</td>
+<td>Time Limit Exceeded. This status is shown if your program was not able to exit within the assigned timelimit</td>
+</tr>
+<tr>
+<td>CE</td>
+<td>Compilation Error</td>
+</tr>
+<tr>
+<td>CTLE</td>
+<td>Compilation Time Limit Exceeded. This occurs if your code takes too much time to compile. Note that if you feel this status occured incorrectly, please try re-submitting your code</td>
+</tr>
+<tr>
+<td>AC/OK</td>
+<td>Accepted. This status is shown if your solution gets accepted for a particular testcase</td>
+</tr>
+<tr>
+<td>NC</td>
+<td>Not Correct. This status is shown if your solution fails for a particular testcase</td>
+</tr>
+</tbody>
+</table>
+<h1 id="faq">FAQ</h1>
+<h2 id="my-solution-passes-the-sample-testcase-but-when-i-submit-my-code-i-m-getting-the-status-code-nzec-for-all-testcases-and-no-error-log">My solution passes the sample testcase but when i submit my code, i&#39;m getting the status code NZEC for all testcases and no error log</h2>
+<p>The final testcases are often more complex than the sample testcase, therefore make sure your code has handled all possible inputs. Some of the reasons for NZEC are improper handling of inputs, segmentation fault, etc. The error logs are only shown for &quot;RUN CODE&quot; and &quot;VERIFY&quot;.</p>
+<h2 id="my-java-solution-runs-locally-but-gives-error-when-i-run-it-on-the-doselect-platform">My java solution runs locally but gives error when i run it on the DoSelect platform</h2>
+<p>Make sure your class name is <code>Source</code> unless the class name is explicitly specified in the problem description.</p>

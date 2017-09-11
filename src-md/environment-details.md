@@ -38,3 +38,22 @@ Memory: 512MB
 | VERIFY   | Verify your solution against sample testcase(s)                                                          |
 | SUBMIT   | Your solution is judged against all the testcases. Sample testcase is also included but it's score is 0. |
 
+# Status codes
+
+| Status code | Description |
+| ----------- | ----------- |
+| AC          | It means that your code ran without any issues during the "RUN CODE"                                         |
+| NZEC        | Runtime Error. This can be caused due to various reasons like improper handling of input, segmentation fault, etc. And if you forgot to return 0 in main function for C or C++ |
+| TLE         | Time Limit Exceeded. This status is shown if your program was not able to exit within the assigned timelimit |
+| CE          | Compilation Error                                                                                            |
+| CTLE        | Compilation Time Limit Exceeded. This occurs if your code takes too much time to compile. Note that if you feel this status occured incorrectly, please try re-submitting your code |
+| AC/OK       | Accepted. This status is shown if your solution gets accepted for a particular testcase                      |
+| NC          | Not Correct. This status is shown if your solution fails for a particular testcase                           |
+
+# FAQ
+
+## My solution passes the sample testcase but when i submit my code, i'm getting the status code NZEC for all testcases and no error log
+The final testcases are often more complex than the sample testcase, therefore make sure your code has handled all possible inputs. Some of the reasons for NZEC are improper handling of inputs, segmentation fault, etc. The error logs are only shown for "RUN CODE" and "VERIFY".
+
+## My java solution runs locally but gives error when i run it on the DoSelect platform
+Make sure your class name is `Source` unless the class name is explicitly specified in the problem description.
