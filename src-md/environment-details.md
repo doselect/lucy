@@ -24,7 +24,7 @@ Memory: 512MB
 | Lua         | 5.2                                | 12                     |                                                                                    |
 | CommonLisp  | GNU CLISP 2.49                     | 12                     |                                                                                    |
 | BASH        | 4.3.11                             | 4                      |                                                                                    |
-| Swift       | 3.0.2                              | 5                      |                                                                                    |
+| Swift       | 4.0.2                              | 5                      |                                                                                    |
 | Objective-C |	Clang 3.4                          | 2                      |                                                                                    |
 | Rust        | 1.5.0                              | 5                      |                                                                                    |
 | C#          | Mono Compiler 4.2.1                | 5                      |                                                                                    |
